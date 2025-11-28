@@ -1,0 +1,55 @@
+.rsvp {
+  background-color: #0000006a;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  padding: 50px 0;
+}
+
+.doxy{
+  margin: 40px 0; 
+}
+
+.rsvp_title {
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "play";
+  margin-bottom: 30px;
+}
+
+.rsvp_p {
+  line-height: 150%;
+  font-family: "arial";
+  color: #fff;
+  font-size: 17px;
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.rsvp_btn {
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 17px;
+  font-family: "arial";
+  text-transform: uppercase;
+  border-radius: 50px;
+  background-color: #443931;
+  background-color: #ff9d00;
+ background: linear-gradient(135deg, #FAB12F 40%, #FF9D00 60%, #FA812F 100%);
+
+  margin: 20px 0;
+}
+@media (max-width: 1034px) {
+  .rsvp_p {
+    width: 90%;
+  }
+
+  .rsvp{
+    padding: 50px 0;
+  }
+}

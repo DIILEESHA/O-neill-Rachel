@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.sold {
+  width: 100%;
+  min-height: 100vh; /* allow full page height */
+  background-image: url("https://static.wixstatic.com/media/5f836a_1385aa0414b04e1aa12f0d5cc284c67c~mv2.jpg/v1/fill/w_1343,h_1116,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5f836a_1385aa0414b04e1aa12f0d5cc284c67c~mv2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; /* optional for parallax effect */
+  position: relative; /* change from fixed to relative */
+  overflow-y: auto; /* default scroll */
+}
+
+
+.jkk{
+  position: relative;
+  z-index: 1000;
+}
+
+.tex {
+  /* position: relative; */
+}
+.ghot {
+  margin: 0 30px;
+}
+.tex::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+
+  height: 100%;
+}
+
+.tex {
+  position: relative;
+}
+
+@font-face {
+  font-family: "rapid";
+  src: url("../public/fonts/GreatVibes-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "play";
+  src: url("../public/fonts/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "arial";
+  src: url("../public/fonts/ArialCE.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --gray: #27211f;
+}
+#our-story,
+#timeline,
+#where-to-stay,
+#rsvp {
+  scroll-margin-top: 80px; /* height of your navbar */
+}
+@media (max-width: 824px) {
+  .ghot {
+    margin: 0 25px 0 15px;
+  }
+}

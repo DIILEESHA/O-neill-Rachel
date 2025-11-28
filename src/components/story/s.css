@@ -1,0 +1,221 @@
+.story_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* backdrop-filter: blur(2px); */
+
+  position: relative;
+  z-index: 1;
+
+  /* background: rgba(0, 0, 0, 0.2);
+  /* border-radius: 16px; */
+  /* -webkit-backdrop-filter: blur(5px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  /* gap: 50px; */
+}
+
+.story_p.closed {
+  height: 160px;
+  /* adjust how much you want to show */
+  overflow: hidden;
+}
+
+.mar {
+  height: 90vh !important;
+  object-position: center 30% !important;
+}
+
+.story_p.open {
+  height: auto;
+}
+
+.story_btn {
+  margin-top: 12px;
+  padding: 8px 18px;
+  border: none;
+  background: #222;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.story_btn:hover {
+  background: #444;
+}
+
+.story {
+
+  padding: 50px;
+  overflow: hidden;
+}
+
+.oo {
+  padding: 50px 100px 50px 100px;
+  gap: 50px;
+
+  /* From https://css.glass */
+
+}
+
+.ooo {
+  padding: 0px 100px 50px 50px;
+}
+
+.story {
+  margin: 0 auto;
+  /* max-width: 900px; */
+}
+
+.toper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.story_sub {
+  /* background-color: var(--gray); */
+  /* height: 100vh; */
+  position: relative;
+}
+
+.story_img {
+  width: 100%;
+  height: 80vh;
+  /* border: 1px solid #FF9D00; */
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center 0%;
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 0 130px; */
+}
+
+.strory_title {
+  font-family: "play";
+  color: #fff;
+    text-shadow: 1px 1px 1px #ffd0009c;
+
+  text-shadow: 1px 2px 1px #ff9d00;
+
+
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 20px;
+  /* font-weight: 400; */
+}
+
+.story_p {
+  font-family: "arial";
+  color: #fff;
+  font-size: 17px;
+  width: 100%;
+  line-height: 150%;
+}
+
+.story_detail_grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.story_ul {}
+
+.story_li {
+  list-style: none;
+  color: #fff;
+  font-family: "arial";
+  line-height: 200%;
+  font-size: 17px;
+}
+
+.tum {
+  text-transform: uppercase;
+}
+
+.qa {
+  margin-bottom: 50px;
+}
+
+.mi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+@media (max-width: 1034px) {
+  .story_sub {
+    height: auto;
+  }
+
+  .oo {
+    padding: 0;
+    gap: 0px;
+
+    /* From https://css.glass */
+
+  }
+
+  .ooo,
+  .story {
+    padding: 0;
+
+  }
+
+  .cd {
+    padding-bottom: 0px !important;
+    height: 50vh !important;
+  }
+
+  .mar {
+    height: 50vh!important;
+  }
+
+  .story_grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story_img {
+    height: 50vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .mi,
+  .ui {
+    /* padding: 0; */
+  }
+
+  .ui {
+    padding: 15px;
+  }
+
+  .mi {
+    padding: 20px 15px;
+  }
+
+  .qa {
+    margin-bottom: 20px;
+  }
+
+  .story_p {
+    font-size: 16px;
+  }
+
+  .story_li {
+    font-size: 15px;
+  }
+
+  .strory_title {
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
