@@ -28,7 +28,7 @@ const Rsvp = () => {
   return (
     <motion.div
       ref={ref}
-      className="rsvp"
+      className="rsvp" id="band"
       initial="hidden"
       animate={inView ? "show" : "hidden"}
       variants={fadeIn}

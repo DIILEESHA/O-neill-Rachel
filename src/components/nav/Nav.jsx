@@ -44,13 +44,13 @@ const Nav = () => {
             <li className="nav_li" onClick={() => scrollToSection("timeline")}>
               Timeline
             </li>
+            <li className="nav_li" onClick={() => scrollToSection("band")}>
+              registry
+            </li>
+          
             <li className="nav_li" onClick={() => scrollToSection("where-to-stay")}>
               Where to stay
             </li>
-            <li className="nav_li" onClick={() => scrollToSection("band")}>
-              Entertainment
-            </li>
-          
           </ul>
         </div>
 
@@ -66,11 +66,9 @@ const Nav = () => {
           <ul className="mobile_nav_ul">
             <li onClick={() => scrollToSection("our-story")}>Our Story</li>
             <li onClick={() => scrollToSection("timeline")}>Timeline</li>
+            <li onClick={() => scrollToSection("band")}>registry</li>
             <li onClick={() => scrollToSection("where-to-stay")}>Where to stay</li>
-            <li onClick={() => scrollToSection("band")}>Entertainment</li>
-            <li>
-              <a href="rsvp" style={{ color: "#fff", textDecoration: "none" }}>RSVP</a>
-            </li>
+         
           </ul>
         </div>
       )}
