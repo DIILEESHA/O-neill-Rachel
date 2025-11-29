@@ -1,0 +1,114 @@
+.vs {
+  z-index: 10;
+  position: relative;
+}
+
+.vone {
+  position: relative;
+}
+.vone::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #333;
+  position: absolute;
+  z-index: 1;
+  content: "";
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  /* inset: 0; */
+  top: 0;
+  right: -32px;
+}
+
+.doxy {
+  position: relative;
+}
+.doxy::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #333;
+  position: absolute;
+  z-index: 1;
+  content: "";
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* inset: 0; */
+  top: 0;
+  left: -32px;
+}
+.vtimeline_grid {
+  display: grid;
+  /* border: 1px solid red; */
+  max-width: 650px;
+  margin: 50px auto;
+  /* gap: 20px; */
+  column-gap: 50px;
+  /* row-gap: 40px; */
+  grid-template-columns: 1fr 1fr;
+  /* place-items: center; */
+  position: relative;
+}
+.vtimeline_grid::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.vone {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+}
+.doxy {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+}
+.hee {
+  color: #fff;
+  opacity: 0;
+}
+.vtimeline_title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 150%;
+  font-family: "play";
+}
+.vtime {
+  color: #fff;
+  line-height: 200%;
+  font-size: 25px;
+  font-family: "rapid";
+}
+.v_paras {
+  color: #fff;
+  line-height: 150%;
+  font-family: "arial";
+}
+@media (max-width: 800px) {
+
+.vs{
+    padding: 50px 10px;
+}
+}

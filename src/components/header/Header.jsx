@@ -37,6 +37,16 @@ const Header = () => {
         >
           O’Neill <span className="ghot">&</span> Rachel
         </motion.h1>
+        <div className="lisne"></div>
+        <p className="story_p doni">
+          Welcome to our wedding website! Here you'll find everything you need
+          to celebrate with us. We love you and can't wait to share our special
+          day with you
+          <br />
+          <br />
+          Love Rachel and O'Neill
+        </p>
+        <div className="lisne r"></div>
       </motion.div>
     </motion.div>
   );

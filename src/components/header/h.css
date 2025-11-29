@@ -30,9 +30,27 @@
   justify-content: center;
 }
 
+.lisne {
+  margin: 30px 0 0 0;
+  background-color: #fff;
+  width:10%;
+  /* transform: rotate(90deg); */
+  height: 2px;
+}
+
+.r{
+  margin: 0;
+}
+.doni {
+  width: 50% !important;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 150%;
+}
 .couple_name_section {
   display: flex;
   align-items: center;
+  flex-direction: column;
   /* position: absolute; */
   inset: 0;
   margin: 30px 0;
@@ -48,7 +66,6 @@
   z-index: 1;
   color: #fff;
   text-shadow: 1px 2px 1px #ff9d00;
-
 }
 
 .date {

@@ -1,5 +1,5 @@
 import "./s.css";
-import str from "../../assets/us.webp";
+import str from "../../assets/us3.webp";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { useInView } from "framer-motion";
@@ -16,7 +16,11 @@ const Story = () => {
   // Unique animations
   const zoomFade = {
     hidden: { opacity: 0, scale: 1.1 },
-    show: { opacity: 1, scale: 1, transition: { duration: 1, ease: "easeOut" } },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 1, ease: "easeOut" },
+    },
   };
 
   const slideRight = {
@@ -102,16 +106,14 @@ const Story = () => {
               hand.
               <br />
               <br />
-
-              On January 21st, they finally met in person. They spent the day
-              at NASA and then the Houston Aquarium, sharing stories, laughter,
-              and a natural sense of comfort that made the day unforgettable.
-              Soon after, O’Neill began making the three-hour drive to Houston
-              every other weekend not because he had to, but because being with
-              Rachel felt right, steady, and God-led.
+              On January 21st, they finally met in person. They spent the day at
+              NASA and then the Houston Aquarium, sharing stories, laughter, and
+              a natural sense of comfort that made the day unforgettable. Soon
+              after, O’Neill began making the three-hour drive to Houston every
+              other weekend not because he had to, but because being with Rachel
+              felt right, steady, and God-led.
               <br />
               <br />
-
               What started with one simple text and a nudge from family became
               the beginning of a love story that neither of them could have
               planned on their own. We both know that our story didn’t happen by
@@ -120,7 +122,6 @@ const Story = () => {
               it.
               <br />
               <br />
-
               Now, as we prepare for our wedding, we’re grateful for the
               beautiful way He brought our lives together. And we look forward
               to building a home filled with love, purpose, and faith side by
@@ -184,9 +185,7 @@ const Story = () => {
                     Chateau Nouvelle
                   </a>
                 </li>
-                <li className="story_li">
-                  Relaxed country attire (flat shoes recommended)
-                </li>
+                <li className="story_li">Semi-Formal</li>
               </ul>
             </div>
           </motion.div>

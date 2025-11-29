@@ -7,6 +7,7 @@ import Enter from "./components/enter/Enter";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
 import QrGenerator from "./QrGenerator";
+import Vtimeline from "./components/timeline/Vtimeline";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
       </div>
 
       <div id="timeline">
-        <Timeline />
+        <Vtimeline />
       </div>
 
       <div id="rsvp">
