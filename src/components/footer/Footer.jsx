@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="footer">
         <img src={log} alt="" className="logo" />
-        <h2 className="footer_title">O’neill + Rachel</h2>
+        <h2 className="footer_title">O’Neill + Rachel</h2>
 
         <h2 className="wedding_details">wedding details</h2>
 
