@@ -35,7 +35,7 @@ const Header = () => {
           animate={{ letterSpacing: "0px", opacity: 1 }}
           transition={{ duration: 1.6, ease: "easeOut", delay: 0.6 }}
         >
-          O’neill <span className="ghot">&</span> Rachel
+          O’Neill <span className="ghot">&</span> Rachel
         </motion.h1>
       </motion.div>
     </motion.div>
