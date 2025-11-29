@@ -102,8 +102,8 @@
     margin-top: 30px;
     display: flex;
   }
-.story_p{
-  width: 90%;
+.doni{
+  width: 90%!important;
 }
   .date_section {
     bottom: 0px;
