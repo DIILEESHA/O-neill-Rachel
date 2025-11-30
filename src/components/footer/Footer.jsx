@@ -1,7 +1,7 @@
 import "./f.css";
 
 import log from "../../assets/logo.png";
-import cos from "../../assets/us3.webp";
+import cos from "../../assets/us.webp";
 import cos2 from "../../assets/us4.webp";
 
 const Footer = () => {
