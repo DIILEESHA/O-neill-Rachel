@@ -26,7 +26,7 @@ const Vtimeline = () => {
         <div className="vtimeline_grid">
           <motion.div className="vtimeline_sub vone" variants={itemVariant} initial="hidden" animate={controls}>
             <h2 className="vtimeline_title">Doors Open to Guests</h2>
-            <h3 className="vtime">2:45 PM</h3>
+            <h3 className="vtime">3:00 PM</h3>
             <p className="v_paras">Leave an Audio Message in the Audio Guestbook</p>
           </motion.div>
 
